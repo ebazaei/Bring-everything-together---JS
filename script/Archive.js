@@ -32,27 +32,33 @@
 
 
 
+
+
 //HTML CSS
 
-const minDv = document.getElementById('demo2')
+// const minDv = document.getElementById('demo2')
 
-function imgcreator(testnm) {
-    var imgsrc = "./img/picture"
+// function imgcreator(testnm) {
+//     var imgsrc = "./img/picture"
 
-    for (let i = 0; i < testnm+1; i++) {
-        //var x = document.createElement("IMG");
-        //x.setAttribute("src", imgsrc + i + ".jpg");
-        // document.body.appendChild(x);
-        // minDv.innerHTML += '<img src="https://www.w3schools.com/jsref/img_pulpit.jpg" alt="">'
+//     for (let i = 0; i < testnm+1; i++) {
+//         //var x = document.createElement("IMG");
+//         //x.setAttribute("src", imgsrc + i + ".jpg");
+//         // document.body.appendChild(x);
+//         // minDv.innerHTML += '<img src="https://www.w3schools.com/jsref/img_pulpit.jpg" alt="">'
 
-        var imgSrcTag = `<img src="./img/picture${i}.jpg" alt="">`;
-        minDv.innerHTML += imgSrcTag
-    }  
-    return x;
-}
+//         var imgSrcTag = `<img src="./img/picture${i}.jpg" alt="">`;
+//         minDv.innerHTML += imgSrcTag
+//     }  
+//     return x;
+// }
 
 
-imgcreator(3)
+// imgcreator(3)
+
+
+
+
 
 // minDv.innerHTML += '<img src="https://www.w3schools.com/jsref/img_pulpit.jpg" alt=""> <br><br><br>'
 // minDv.innerHTML += '<img src="https://www.w3schools.com/jsref/img_pulpit.jpg" alt=""> <br>'
